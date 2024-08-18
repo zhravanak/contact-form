@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Contact form</title>
+  </head>
+  <body>
+    <div id="Contant">
+      <p id="title">Concat Us</p>
+      <form>
+        <div id="First">
+          <div>
+            <label for="First-name" class="all">First Nmae *</label>
+            <input type="text" id="First-name" class="input-1" />
+            <br />
+            <span id="First_error"></span>
+          </div>
+          <div id="First-2">
+            <label for="Last-Name" class="all">Last Name *</label>
+            <br />
+            <input type="text" id="Last-Name" class="input-1" />
+            <br />
+            <span id="last_error"></span>
+          </div>
+        </div>
+        <div id="sec">
+          <label for="Email-Address" class="all"> Email Address *</label>
+          <br />
+          <input
+            type="email"
+            name="Email-Address"
+            id="Email_Address"
+            placeholder="   Please enter a valid email address"
+          />
+          <br />
+          <span id="sec_error"></span>
+        </div>
+
+        <p id="Query-Type" class="all">Query Type *</p>
+        <div id="third">
+          <div id="container-1">
+            <input
+              type="radio"
+              name="radio"
+              id="radio-1"
+              class="radio"
+              value="radio-1"
+            />
+            <label for="radio-1">General Enquiry</label>
+          </div>
+          <div id="container-2">
+            <input
+              type="radio"
+              name="radio"
+              id="radio-2"
+              class="radio"
+              value="radio-2"
+            />
+            <label for="radio-2"> Support Request </label>
+          </div>
+        </div>
+
+        <span id="cont_error"></span>
+
+        <div id="forth">
+          <label for="Message" class="all">Message *</label>
+          <input type="text" id="Message" />
+          <br />
+          <span id="Message_error"></span>
+        </div>
+
+        <div id="five">
+          <input type="checkbox" id="check_box" />
+          <label for="checkbox">I consent to being contacted by the team</label>
+          <br />
+          <span id="five_error"></span>
+        </div>
+
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

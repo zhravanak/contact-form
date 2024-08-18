@@ -1,0 +1,142 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: Karla-Bold;
+	src: url(./assets/fonts/static/Karla-Bold.ttf);
+}
+@font-face {
+	font-family: Karla-Regular;
+	src: url(./assets/fonts/static/Karla-Regular.ttf);
+}
+body {
+	background-color: rgba(165, 248, 224, 0.454);
+}
+#Contant {
+	width: 650px;
+	height: 600px;
+	background-color: rgb(255, 255, 255);
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 15px;
+}
+form {
+	margin-left: 50px;
+	font-family: karla-Regular;
+}
+#title {
+	font-family: Karla-Bold;
+	font-size: 2rem;
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+#First {
+	display: flex;
+	margin-top: 30px;
+}
+#First-2 {
+	margin-right: 40px;
+}
+.input-1 {
+	width: 270px;
+	height: 40px;
+	border-radius: 10px;
+}
+#sec {
+	margin-top: 20px;
+}
+#Email_Address {
+	width: 550px;
+	height: 40px;
+	border-radius: 10px;
+}
+#Query-Type {
+	margin-top: 20px;
+	margin-bottom: 2px;
+}
+
+#third {
+	display: flex;
+}
+#container-1 {
+	width: 270px;
+	height: 40px;
+	border-radius: 10px;
+	border: solid 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#container-2 {
+	width: 270px;
+	height: 40px;
+	border-radius: 10px;
+	margin-left: 10px;
+	border: solid 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#forth {
+	margin-top: 20px;
+}
+#Message {
+	width: 550px;
+	height: 100px;
+	border: solid 2px;
+	border-radius: 10px;
+}
+#five {
+	margin-top: 20px;
+}
+
+button {
+	width: 550px;
+	border-radius: 10px;
+	height: 50px;
+	border: none;
+	background-color: rgb(37, 161, 83);
+	margin-top: 35px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+@media (max-width: 640px) {
+	#First,
+	#third {
+		display: block;
+	}
+	#container-2 {
+		margin-left: -1px;
+		margin-top: 10px;
+	}
+	#First-2 {
+		margin-left: -1px;
+		margin-top: 10px;
+	}
+	#Contant {
+		height: max-content;
+		width: 400px;
+		padding: 2rem 0;
+		margin-bottom: 2rem;
+	}
+	#Message {
+		width: 280px;
+	}
+	#Email_Address {
+		width: 270px;
+	}
+	button {
+		width: 270px;
+	}
+	.all {
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+}
